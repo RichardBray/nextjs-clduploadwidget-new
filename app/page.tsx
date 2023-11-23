@@ -1,6 +1,6 @@
 'use client';
 
-import { CldUploadWidget, CldImage } from 'next-cloudinary';
+import { CldUploadWidget } from 'next-cloudinary';
 
 export default function Home() {
   return (
@@ -18,8 +18,6 @@ export default function Home() {
             </button>
           )}
         </CldUploadWidget>
-
-        <CldImage src="cld-sample-5" width={935} height={625} alt="Some trainers" />
       </section>
     </main>
   );
